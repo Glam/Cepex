@@ -1,0 +1,145 @@
+/*
+Theme Name: Universidad Externado de Colombia - 2
+Theme URI: http://www.uexternado.edu.co
+Description: Tema para sitio web - Opción 2
+Author: Oficina de Comunicaciones, UEC
+Author URI: http://comunicaciones.uexternado.edu.co
+Template: sight
+Version: 1.0
+*/
+
+@import url("../sight/style.css");
+
+
+/* =============================================================================
+   Estructura
+   ========================================================================== */
+   
+body {
+    background: #e3e4e1;
+}   
+   
+/* =============================================================================	
+   Tipografía
+   ========================================================================== */
+   
+.content-title {
+	color: #004024 !important;
+}
+
+.grid .post h2, 
+.grid .post h2 a {
+	color: white;
+}
+
+/* =============================================================================
+   Menúes
+   ========================================================================== */
+.dd li.dd_hover, .sub-menu {
+	background-color: #004024 !important;
+}
+
+
+.dd li.parent a.dd_hover {
+	border-bottom: none;
+}
+
+
+.sub-menu li {
+padding-bottom: 10px !important;
+}
+
+/* =============================================================================
+   Formularios
+   ========================================================================== */
+    
+.formulario-contacto {
+	width: 800px;
+}
+
+.formulario-contacto textarea, .formulario-contacto input {
+	width: 360px;
+	padding: 7px;
+	margin-top: 8px;
+}
+
+.enviar .wpcf7-submit{
+	margin: 0 !important;
+	height: 40px;
+	font-size: 15px;
+}
+/* =============================================================================
+   Slider
+   ========================================================================== */
+   
+.slide {
+	background: #004024;
+}
+
+.slide .post a, 
+.slide .post-category,
+.slide .post h2, 
+.slide .post h2 a,
+.slide .post-content {
+	color: white;
+}
+
+.slide .post-content {
+	font-size: 14px;
+}
+
+.slideshow {
+	border-bottom: 4px solid #B3975A;
+}
+
+/* =============================================================================
+   Footer
+   ========================================================================== */
+
+.footer {
+	height: 90px;
+}
+
+.credits a {
+	background: url('images/uec-footer.png') no-repeat;
+	display: block;
+	width: 114px;
+	height: 31px;
+	margin-top: 15px;
+}
+
+/* =============================================================================
+   Ocultar elementos
+   ========================================================================== */
+
+.post-meta {
+	visibility: hidden;
+	display: none;
+}
+
+/* =============================================================================
+   Helpers
+   ========================================================================== */
+   
+/* For image replacement */
+.ir { display: block; text-indent: -999em; overflow: hidden; background-repeat: no-repeat; text-align: left; direction: ltr; }
+.ir br { display: none; }
+
+/* Hide for both screenreaders and browsers:
+   css-discuss.incutio.com/wiki/Screenreader_Visibility */
+.hidden, .home footer { display: none; visibility: hidden; }
+
+/* Hide only visually, but have it available for screenreaders: by Jon Neal.
+  www.webaim.org/techniques/css/invisiblecontent/  &  j.mp/visuallyhidden */
+.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+
+/* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: drupal.org/node/897638 */
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+
+/* Hide visually and from screenreaders, but maintain layout */
+.invisible { visibility: hidden; }
+
+/* Contain floats: nicolasgallagher.com/micro-clearfix-hack/ */ 
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
